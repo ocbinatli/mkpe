@@ -327,7 +327,7 @@ mkpe_projection_train <- function(K_c, K_x, K_z, X, Z, parameters) {
       break
     }
   }
-  #set the state list
+  # set the state list
   state <- list(Q_x = Q_x, Q_z = Q_z, sigma_e = sigma_e, objective_c = objective_c, objective_x = objective_x, objective_z = objective_z, objective = objective, time = timediff_sec)
 }
 
